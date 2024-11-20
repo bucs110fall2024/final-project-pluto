@@ -3,7 +3,7 @@ class Controller:
   
   def __init__(self):
     #setup pygame data
-    
+    pass
   def mainloop(self):
     #select state loop
     
@@ -11,6 +11,7 @@ class Controller:
   ### below are some sample loop states ###
 
   def menuloop(self):
+    pass
     
       #event loop
 

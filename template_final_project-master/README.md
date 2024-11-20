@@ -38,7 +38,8 @@ a bullet hell style shooter inspired by the touhou franchise
 
 ### Classes
 
-- << You should have a list of each of your classes with a description >>
+- Player: Creates the player character, sets their movement options, sets their projectiles
+- Enemy: sets the enemies, sets their position, sets their projectiles.
 
 ## ATP
 

@@ -1,8 +1,8 @@
 
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 
-# << Project Title >>
-## CS110 Final Project  << Semester, Year >>
+# Bullet Evasion
+## CS110 Final Project  Fall 2024
 
 ## Team Members
 
@@ -12,7 +12,7 @@
 
 ## Project Description
 
-a bullet hell style shooter inspired by the touhou franchise
+a bullet hell style game where you avoid projectiles for as long as you can
 
 ***    
 
@@ -24,22 +24,23 @@ a bullet hell style shooter inspired by the touhou franchise
 
 ### Final Design
 
-![final gui](assets/finalgui.jpg)
+![final gui](assets/finalgui.png)
 
 ## Program Design
 
 ### Features
 
-1. << Start menu >>
-2. << Moveable character >>
-3. << Player Projectiles >>
-4. << Interactable enemy >>
-5. << enemy projectiles >>
+1. Player Character
+2. Random Projectiles
+3. Death Animation
+4. Restart Option
+
 
 ### Classes
 
-- Player: Creates the player character, sets their movement options, sets their projectiles
-- Enemy: sets the enemies, sets their position, sets their projectiles.
+- Player: Creates the player character, sets their movement options, gives the player a hitbox
+- Projectile: Creates a projectile character, sets their movement and speed, gives the projectile a hitbox
+- Game: Randomizes bullet speed and where they approach from, creates the scoring system, provides a death animation for the player, prompts a new game by pressing space 
 
 ## ATP
 Test Case 1: Player Movement
@@ -80,9 +81,4 @@ Test Case 5: Error Handeling
 2. Enter invalid inputs while playing
 3. Verify that the program does not crash and displays apprpriate error messages
 
-Test Case 5: 
-| Step                 |Procedure             |Expected Results                   |
-|----------------------|:--------------------:|----------------------------------:|
-|  1                   | Run Counter Program  |GUI window appears with count = 0  |
-|  2                   | click count button   | display changes to count = 1      |
-etc...
+

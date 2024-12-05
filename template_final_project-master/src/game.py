@@ -2,7 +2,6 @@ import pygame
 import random
 from itertools import  permutations
 from player import Player
-from enemy import Enemy
 from projectile import Projectile
 
 class Game:
